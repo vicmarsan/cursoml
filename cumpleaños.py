@@ -18,7 +18,7 @@ if __name__ == "__main__":
     año_nacimiento = input("Escribe tu fecha de nacimiento (año, mes, día): ")
 
 
-       print(sacar_datetime("08", "02"))
+    print(sacar_datetime("08", "02"))
 
 
     hoy = datetime.now()
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     if hoy > cumpleaños:
         cumpleaños = sacar_datetime(dia_nacimiento, mes_nacimiento, str(hoy.year + 1))
 
-    days = cumpleaños - hoy 
+    days = cumpleaños - hoy
     print(days.days)
 
 
