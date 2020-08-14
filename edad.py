@@ -10,6 +10,5 @@ while not bien:
       bien = True
     except ValueError: 
       print ("no seas tonto , los años no tienen letras")
-   
-    
+
 
